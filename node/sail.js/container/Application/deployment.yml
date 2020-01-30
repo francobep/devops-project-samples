@@ -19,4 +19,4 @@ spec:
       - name: front-app
         image: IMAGENAME
         ports:
-        - containerPort: 8080
+        - containerPort: 1337
