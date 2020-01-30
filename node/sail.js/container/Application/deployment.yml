@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: front-app
-        image: IMAGENAME
+        image: francobep/frontendnode:1.0.0.7
         ports:
         - containerPort: 1337
         env:
