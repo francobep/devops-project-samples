@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: francobep/backendjava:1.0.0.14
+        image: IMAGENAME
         ports:
         - containerPort: 8080
