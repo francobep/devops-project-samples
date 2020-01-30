@@ -19,3 +19,6 @@ spec:
         image: IMAGENAME
         ports:
         - containerPort: 8080
+        env:
+          - name: APPINSIGHTS_INSTRUMENTATIONKEY
+            value: APPINSIGHTS_INSTRUMENTATIONKEY
